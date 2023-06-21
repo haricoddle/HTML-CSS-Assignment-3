@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@300&display=swap');
+*{
+    margin: 0;
+}
+.container{
+     max-width: 100%;
+     height: auto;
+     
+} 
+.intro{
+     display: flex; 
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(76, 93, 57);
+}
+.intro_line{
+    color: rgb(233, 227, 201);
+}
+.navbar{
+    background: rgb(255, 250, 244);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+}
+.navbar .logo{
+    font-size: 1.5rem;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+.navbar .icons{
+    display: flex;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    gap: 1.2rem;
+}
+.banner_img{
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+}
+.banner_text{
+    position: absolute;
+    font-size: 2rem;
+    top: 450px;
+    left: 150px;
+}
+.banner button{
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(234, 234, 232);
+}
+.about{
+    background-color: whitesmoke;
+    text-align: center;
+
+}
+.about h2{
+    font-size: 2rem;
+    font-weight: 200;
+    padding-top: 20px;
+}
+.about_info{
+    /* margin: 0px 50px 50px 50px; */
+    padding: 30px 400px 30px 400px;
+}
+
+.imgg{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.about_text{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about_text h3{
+    font-weight: 200;
+}
+.about_text p{
+    margin-top: 20px;
+    max-width: 400px;
+}
+.about_button button{
+    background-color: rgb(216, 163, 172);
+    border: none;
+    padding: 10px;
+    margin: 40px 0 40px 0;
+}
+.steps{
+    display: flex;
+    background-color: rgb(234, 222, 206);
+}
+.steps img{
+    height: 400px;
+    width: 400px;
+    margin: 50px 50px 50px 150px;
+}
+.steps_img{
+    width: 50%;
+}
+.steps_text{
+    margin-top: 100px;
+    line-height: 1.5rem;
+    width: 50%;
+    align-items: center; 
+    text-align: start;
+}
+.steps_text h3{
+    margin-bottom: 15px;
+    font-weight: 100;
+    font-size: 2rem;
+}
+.steps_text p{
+    margin-bottom: 15px;
+    font-weight: 200;
+    font-size: 1.1rem;
+}
+.steps_button{
+    background-color: rgb(216, 163, 172);
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+}
+.review{
+    padding-top: 200px;
+    text-align: center;
+    height: 300px;
+    line-height: 2rem;
+    color: whitesmoke;
+    background-color: rgb(76, 93, 57);
+}
+.review_text{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.review_paper{
+    font-family: 'New Rocker', cursive;
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+.review_dots{
+    margin-top: 50px;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+.footer{
+    background-color: whitesmoke;
+    display: flex;
+}
+.footer_text{
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.footer_text h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.footer_text p{
+    font-family: 'Faustina', serif;
+    margin-right: 150px;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+.footer_button{
+    border: none;
+    background-color: rgb(216, 163, 172);
+    padding: 10px;
+}
+.footer_img{
+    margin-top: 50px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
