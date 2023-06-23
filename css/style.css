@@ -8,6 +8,7 @@
 .container{
     margin: auto;
     max-width: 100%;   
+    flex-wrap: wrap;
 } 
 .intro{
      display: flex; 
@@ -212,10 +213,10 @@
         margin: 50px 50px 50px 500px;
     }
 }
-/* @media  screen and (min-width: 1350px) {
+ @media  screen and (min-width: 1350px) {
 .banner_text{
-    top: 600px;
+    top: 1200px;
     left:150px
 }
-} */
+} 
 
