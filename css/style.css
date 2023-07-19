@@ -8,7 +8,7 @@
 .container{
     margin: auto;
     max-width: 100%;   
-    flex-wrap: wrap;
+    box-sizing: border-box;
 } 
 .intro{
      display: flex; 
@@ -38,6 +38,9 @@
 .navbar .logo{
     font-size: 1.5rem;
 }
+.nowrap{
+    flex-wrap: wrap;
+}
 .navbar a{
     text-decoration: none;
     color: black;
@@ -53,6 +56,7 @@
     height: 100vh;
 }
 .banner_img{
+    position: relative;
     object-fit: cover;
     width: 100%;
     height:100%;
@@ -104,7 +108,7 @@
     padding: 0 100px;
 }
 .about_button button{
-    background-color: rgb(216, 163, 172);
+    background-color: rgb(203, 157, 124);
     border: none;
     padding: 10px;
     margin: 40px 0 40px 0;
@@ -139,7 +143,7 @@
     font-size: 1.1rem;
 }
 .steps_button{
-    background-color: rgb(216, 163, 172);
+    background-color: rgb(203, 157, 124);
     margin-top: 20px;
     border: none;
     padding: 10px;
@@ -168,7 +172,7 @@
     font-size: 3rem;
 }
 .footer{
-    background-color: whitesmoke;
+    background-color: rgb(255, 250, 244);
     display: flex;
 }
 .footer_text{
@@ -191,7 +195,7 @@
 }
 .footer_button{
     border: none;
-    background-color: rgb(216, 163, 172);
+    background-color: rgb(203, 157, 124);
     padding: 10px;
 }
 .footer_img{
@@ -203,7 +207,44 @@
     background-color: rgb(234,222,206);
     height: 20px;
 }
-@media  screen and (min-width: 2560px) {
+@media  screen and (min-width: 1024px) and (max-width:1439.5px)  {
+    .banner_text{
+        top: 600px;
+        left:180px
+    }
+    .about_info{
+        line-height: 1.3rem;
+        padding: 30px 200px 30px 200px;
+    }
+    .about_product p{
+        padding: 0 20px;
+    }
+    .steps_text{
+        margin-top: 70px;
+    }
+    .steps_text h3{
+        padding: 0 60px;
+    }
+    .steps_text h4{
+        padding: 0 60px;
+    }
+    .steps_text p{
+        padding: 0 60px;
+    }
+    .steps_button{
+       margin: 10px 0 0 60px; 
+    }
+    } 
+    @media  screen and (max-width: 1440px)  {
+        .banner_text{
+            top: 600px;
+            left:150px
+        }
+        .steps_text {
+            margin-top: 80px;
+        }
+    }
+@media  screen and  (min-width: 2560px) {
     .banner_text{
         top : 1200px;
         left: 500px;
@@ -224,40 +265,6 @@
         margin: 50px 50px 50px 500px;
     }
 }
-  @media  screen and (min-width: 1024px) {
-.banner_text{
-    top: 1200px;
-    left:150px
-}
-.about_info{
-    line-height: 1.3rem;
-    padding: 30px 200px 30px 200px;
-}
-.about_product p{
-    padding: 0 20px;
-}
-.steps_text{
-    margin-top: 70px;
-}
-.steps_text h3{
-    padding: 0 60px;
-}
-.steps_text h4{
-    padding: 0 60px;
-}
-.steps_text p{
-    padding: 0 60px;
-}
-.steps_button{
-   margin: 10px 0 0 60px; 
-}
-} 
-@media  screen and (min-width: 1440px) {
-    .banner_text{
-        top: 600px;
-        left:150px
-    }
-    .steps_text {
-        margin-top: 80px;
-    }
-}
+
+ 
+
